@@ -5,19 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63bab0a5-24dc-4d64-a208-0c635aeb76b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/metier/Calcul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pres/PresSpringAnnotations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pres/PresSpringXML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/metier/CalculTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/DaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/DaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ext/DaoImpl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ext/DaoImpl2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/metier/MetierImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/metier/MetierImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pres/Pres2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pres/Pres2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pres/Presentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pres/Presentation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;R-ELKADAH&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/R-ELKADAH/Projet02_Rachid_EL_KADAH.git&quot;,
+    &quot;accountId&quot;: &quot;c65214ba-a8a1-4559-9564-5c8ec14743f3&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2eVCDMDhi9om5lhqxSygwmCt6dy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -26,15 +57,127 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.Pres2.executor": "Run",
+    "Application.PresSpringAnnotations.executor": "Run",
+    "Application.PresSpringXML.executor": "Run",
+    "JUnit.CalculTest.executor": "Run",
+    "JUnit.CalculTest.testSomme.executor": "Run",
+    "Maven.Projet02_Rachid_EL_KADAH [compile].executor": "Run",
+    "Maven.Projet02_Rachid_EL_KADAH [test].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Beeclick/IdeaProjects/Projet02_Rachid_EL_KADAH/src/main/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/Beeclick/IdeaProjects/Projet02_Rachid_EL_KADAH/src/main/java/ma/fsm/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Beeclick\IdeaProjects\Projet02_Rachid_EL_KADAH\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Beeclick\IdeaProjects\Projet02_Rachid_EL_KADAH" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CalculTest">
+    <configuration name="Pres2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pres.Pres2" />
+      <module name="Projet02_Rachid_EL_KADAH" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pres.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PresSpringAnnotations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pres.PresSpringAnnotations" />
+      <module name="Projet02_Rachid_EL_KADAH" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pres.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PresSpringXML" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pres.PresSpringXML" />
+      <module name="Projet02_Rachid_EL_KADAH" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pres.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Projet02_Rachid_EL_KADAH" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="metier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="metier" />
+      <option name="MAIN_CLASS_NAME" value="metier.CalculTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculTest.testSomme" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Projet02_Rachid_EL_KADAH" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="metier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="metier" />
+      <option name="MAIN_CLASS_NAME" value="metier.CalculTest" />
+      <option name="METHOD_NAME" value="testSomme" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CalculTest" />
+        <item itemvalue="JUnit.CalculTest.testSomme" />
+        <item itemvalue="Application.PresSpringAnnotations" />
+        <item itemvalue="Application.PresSpringXML" />
+        <item itemvalue="Application.Pres2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -43,7 +186,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711980240291</updated>
-      <workItem from="1711980241342" duration="1000" />
+      <workItem from="1711980241342" duration="1633000" />
+      <workItem from="1713298890373" duration="1804000" />
+      <workItem from="1713303090196" duration="205000" />
+      <workItem from="1713303305537" duration="5757000" />
     </task>
     <servers />
   </component>
@@ -54,8 +200,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ma/fsm/Main.java</url>
-          <line>13</line>
+          <url>file://$PROJECT_DIR$/src/main/java/pres/PresSpringXML.java</url>
+          <line>6</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
